@@ -1,20 +1,13 @@
 modules = ["nodejs-20"]
 
-[nix]
-packages = ["tree", "nano"]
-
 [[ports]]
 localPort = 5173
 externalPort = 80
 
-[workflows]
-runButton = "Dev Server"
+[nix]
+packages = ["nano"]
 
-[[workflows.workflow]]
-name = "Dev Server"
-author = 44314674
-mode = "sequential"
+run = "npm run dev -- --host=0.0.0.0"
 
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "npm run dev"
+[interpreter]
+entrypoint = "index.html"
