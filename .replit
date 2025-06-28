@@ -1,14 +1,22 @@
-entrypoint = "index.js"
-modules = ["nodejs-22"]
-hidden = [".config", "package-lock.json"]
+# entrypoint = "index.js"
+# modules = ["nodejs-22"]
+# hidden = [".config", "package-lock.json"]
 
-[gitHubImport]
-requiredFiles = [".replit", "replit.nix", "package.json", "package-lock.json"]
+# [gitHubImport]
+# requiredFiles = [".replit", "replit.nix", "package.json", "package-lock.json"]
 
-[nix]
-channel = "stable-24_11"
+# [nix]
+# channel = "stable-24_11"
 
-[deployment]
-run = ["node", "index.js"]
-deploymentTarget = "autoscale"
-ignorePorts = false
+# [deployment]
+# run = ["node", "index.js"]
+# deploymentTarget = "autoscale"
+# ignorePorts = false
+run = "npm run dev -- --host=0.0.0.0"
+
+[interpreter]
+entrypoint = "index.html"
+
+[[ports]]
+localPort = 5173
+externalPort = 80

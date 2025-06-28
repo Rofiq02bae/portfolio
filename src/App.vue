@@ -1,4 +1,4 @@
-<!-- <script setup>
+<script setup>
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -28,10 +28,3 @@ import HelloWorld from './components/HelloWorld.vue'
   filter: drop-shadow(0 0 2em #42b883aa);
 }
 </style>
- -->
-
- <template>
-   <div class="min-h-screen bg-gray-900 text-white flex items-center justify-center">
-     <h1 class="text-4xl font-bold text-red-500">Tailwind berhasil jalan! 🚀</h1>
-   </div>
- </template>
