@@ -1,4 +1,4 @@
-<!-- <script setup>
+<script setup>
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -28,26 +28,3 @@ import HelloWorld from './components/HelloWorld.vue'
   filter: drop-shadow(0 0 2em #42b883aa);
 }
 </style>
- -->
-
- <template>
-   <div>
-     <Header />
-     <Hero />
-     <Skills />
-     <Services />
-     <About />
-     <Projects />
-     <Footer />
-   </div>
- </template>
-
- <script setup>
- import Header from './components/Header.vue'
- import Hero from './components/Hero.vue'
- import Skills from './components/Skills.vue'
- import Services from './components/Services.vue'
- import About from './components/About.vue'
- import Projects from './components/Projects.vue'
- import Footer from './components/Footer.vue'
- </script>
