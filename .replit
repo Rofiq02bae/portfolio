@@ -1,7 +1,8 @@
 entrypoint = "index.html"
+modules = ["nodejs-20"]
 
-[interpreter]
-command = ["npm", "run", "dev", "--", "--host"]
+# [interpreter]
+ run = ["npm", "run", "dev", "--", "--host"]
 
 [env]
 PORT = "5173"
@@ -9,3 +10,6 @@ PORT = "5173"
 [[ports]]
 localPort = 5173
 externalPort = 80
+
+
+
