@@ -13,6 +13,7 @@
 # deploymentTarget = "autoscale"
 # ignorePorts = false
 run = "npm run dev -- --host=0.0.0.0"
+modules = ["nodejs-20"]
 
 [interpreter]
 entrypoint = "index.html"
@@ -20,6 +21,8 @@ entrypoint = "index.html"
 [[ports]]
 localPort = 5173
 externalPort = 80
+exposeLocalhost = true
 
 [nix]
 packages = ["openssh"]
+entrypoint = "index.html"
