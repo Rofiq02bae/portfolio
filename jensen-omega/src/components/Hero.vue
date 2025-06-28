@@ -3,7 +3,7 @@
     <div class="container">
       <div class="hero-content">
         <div class="text">
-          <h2>Hello, I'm <span class="highlight">Jensen</span></h2>
+          <h2>Hello, I'm <span class="highlight">As'adurrofiq</span></h2>
           <h3>Software Developer</h3>
           <div class="buttons">
             <a href="#contact" class="btn primary">Got a project?</a>
@@ -11,7 +11,7 @@
           </div>
         </div>
         <div class="profile-wrapper">
-          <img src="/profile.png" alt="Profile" class="profile-img" />
+          <img src="/profile.jpg" alt="Profile" class="profile-img" />
           <div class="glow"></div>
         </div>
       </div>
