@@ -11,5 +11,9 @@ PORT = "5173"
 localPort = 5173
 externalPort = 80
 
+[[ports]]
+localPort = 5174
+externalPort = 3000
+
 
 
