@@ -11,7 +11,7 @@
 
 <script setup>
 const skills = [
-  'HTML5', 'CSS3', 'JavaScript', 'Node.js', 'React', 'Git', 'GitHub'
+  'HTML5', 'CSS', 'JavaScript', 'Node.js', 'Vue', 'GitHub', 'Docker', 'PHP'
 ]
 </script>
 
