@@ -15,8 +15,9 @@
 <script setup>
 const services = [
   { title: 'Website Development', description: 'Custom and responsive websites.' },
-  { title: 'App Development', description: 'Cross-platform and modern apps.' },
-  { title: 'Website Hosting', description: 'Secure and fast hosting solutions.' }
+  { title: 'Development Operation', description: 'wide-ranging knowledge of both development and operations.' },
+  { title: 'Website Hosting', description: 'Secure and fast hosting solutions.' },
+  { title: 'OOP', description: 'Object Oriented Programming' }
 ]
 </script>
 
