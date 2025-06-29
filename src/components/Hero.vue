@@ -6,7 +6,7 @@
           <h2>Hello, I'm <span class="highlight">As'adurrofiq</span></h2>
           <h3>Software Developer</h3>
           <div class="buttons">
-            <a href="#contact" class="btn primary">Got a project?</a>
+            <a href="https://wa.me/+6287863535272" target=blank class="btn primary">Got a project?</a>
             <a href="https://drive.google.com/file/d/1BF5Bx6_xi2wHDjgYtoyvRRXLiQSSdXiz/view?usp=drivesdk" target="_blank" class="btn">My Resume</a>
           </div>
         </div>
