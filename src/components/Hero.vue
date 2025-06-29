@@ -7,7 +7,7 @@
           <h3>Software Developer</h3>
           <div class="buttons">
             <a href="#contact" class="btn primary">Got a project?</a>
-            <a href="https://your-resume-link.pdf" target="_blank" class="btn">My Resume</a>
+            <a href="https://drive.google.com/file/d/1BF5Bx6_xi2wHDjgYtoyvRRXLiQSSdXiz/view?usp=drivesdk" target="_blank" class="btn">My Resume</a>
           </div>
         </div>
         <div class="profile-wrapper">
