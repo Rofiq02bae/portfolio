@@ -4,21 +4,31 @@
       <h2>Projects</h2>
       <p>Here are some of the things I've worked on recently:</p>
       <div class="grid">
-        <div v-for="n in 3" :key="n" class="project-card">
-          <h3>Project {{ n }}</h3>
-          <p>Rentaride
-              a laravel based car rental application platform used by Jogja Volkswagen Tour
-            link to demo : https://frontend-rental.netlify.app/
-          </p>
-          <p>LiteFit
-              ui/ux for sports progress tracker app 
-            link to demo : https://www.figma.com/design/la9o8bP8LaR8ehpAjnyNdN/design-HCI?node-id=0-1&t=F6hFxaBFAB0pBNn7-1
-          </p>
+        <div v-for="(project, index) in projects" :key="index" class="project-card">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+          <a :href="project.link" target="_blank" rel="noopener">View Demo</a>
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<script setup>
+const projects = [
+  {
+    title: 'Rentaride',
+    description: 'A Laravel-based car rental platform used by Jogja Volkswagen Tour.',
+    link: 'https://frontend-rental.netlify.app/'
+  },
+  {
+    title: 'LiteFit',
+    description: 'UI/UX design for a sports progress tracker app.',
+    link: 'https://www.figma.com/design/la9o8bP8LaR8ehpAjnyNdN/design-HCI?node-id=0-1&t=F6hFxaBFAB0pBNn7-1'
+  }
+]
+</script>
+
 
 <style scoped>
 .projects {
