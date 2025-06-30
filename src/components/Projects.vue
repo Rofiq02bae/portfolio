@@ -10,7 +10,6 @@
               a laravel based car rental application platform used by Jogja Volkswagen Tour
             link to demo : https://frontend-rental.netlify.app/
           </p>
-          <h3>Project {{ n }}</h3>
           <p>LiteFit
               ui/ux for sports progress tracker app 
             link to demo : https://www.figma.com/design/la9o8bP8LaR8ehpAjnyNdN/design-HCI?node-id=0-1&t=F6hFxaBFAB0pBNn7-1
