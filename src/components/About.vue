@@ -2,11 +2,11 @@
   <section id="about" class="about">
     <div class="container">
       <h2>About Me</h2>
-      <p>I am a passionate developer with years of experience in creating web and mobile solutions.</p>
+      <p>I am a passionate web developer and aspiring DevOps engineer currently pursuing my degree, with hands-on experience in creating web and mobile solutions through academic and personal projects.</p>
       <div class="stats">
-        <div class="stat"><strong>120+</strong><br />Projects</div>
+        <div class="stat"><strong>20+</strong><br />Projects</div>
         <div class="stat"><strong>95%</strong><br />Client Satisfaction</div>
-        <div class="stat"><strong>10+</strong><br />Years Experience</div>
+        <div class="stat"><strong>2+</strong><br />Years Experience</div>
       </div>
     </div>
   </section>
